@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Example</title>
+		<style>			
+			
+			body {
+				padding: 0;
+				margin: 0;
+				background: green;
+				width: 100vw;
+				height: 100vh;
+			}
+			
+			.magicArea {
+				background: yellow;
+				position: absolute;
+				margin: auto;
+				top: 0;
+				bottom: 0;
+				left: 0;
+				right: 0;
+			}
+		</style>
+	</head>
+	<body>	
+		<div class="magicArea"> </div>
+	</body>
+
+	<script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="magicarea.js"></script>	
+	<script type="text/javascript">
+
+		$(document).ready(function() {
+			magicarea('.magicArea', { width: 1920, height: 1080 });
+		});
+		
+	</script>
+
+</html>
