@@ -1,6 +1,6 @@
 # magicarea
 
-Adapta o elemento em relação ao tamanho do elemento pai.
+Adapta o tamanho do elemento html em relação ao tamanho do elemento pai.
 
  magicarea(seletorcss, { width: number, height: number });
 

@@ -1,8 +1,9 @@
 {
   "name": "magicarea",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "Adapta o tamanho do elemento html em relação ao tamanho do elemento pai.",
   "main": "magicarea.js",
+  "author":"Leandro Soares",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
